@@ -1,0 +1,6 @@
+services:
+  node_access.node_access_subscriber:
+    class: Drupal\node_access\EventSubscriber\NodeAccessSubscriber
+    arguments: ['@current_user']
+    tags:
+      - { name: event_subscriber }

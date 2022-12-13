@@ -1,0 +1,5 @@
+name: Hajans Node Access
+description: A simple module used to control access
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
